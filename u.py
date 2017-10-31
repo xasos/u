@@ -25,6 +25,12 @@ class U:
       subprocess.check_output(['[ -d "YOUR_DIR" ] && echo "is a dir"'])
       pass
 
+  def update_all():
+      #search directory
+      #update all dir
+      #update urls
+      #list urls
+
 if __name__ == "__main__":
     if (len(sys.argv) == 3):
         url = sys.argv[1]
