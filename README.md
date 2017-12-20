@@ -3,11 +3,17 @@ Use GitHub Pages as a URL shortener (even with a custom domain!). No backend nec
 
 ## Installation & Usage
 ```
-pip install u-github-pages
-u https://twitter.com/niraj tw-niraj  # u <url> <optional:shortcode> - Generates shortened URL
+$ pip install u-github-pages
+
+# u <url> <optional:shortcode> - Generates shortened URL
+$ u https://twitter.com/niraj tw-niraj
 # Shortened URL now live at http://niraj.io/u/tw-niraj
-u all # u all - View all previous shortened URLs
-u setup http://niraj.io # u setup <domain> - Set default domain
+
+# u all - View all previous shortened URLs
+$ u all
+
+# u setup <domain> - Set default domain
+$ u setup http://niraj.io
 ```
 
 ## License
